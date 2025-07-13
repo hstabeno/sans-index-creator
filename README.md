@@ -70,16 +70,16 @@ python sans_pdf_indexer.py -i <PDF_FILE> [options]
 ## 📄 Example
 
 ```bash
-python sans_pdf_indexer.py -i for608.pdf --csv \
+python sans_pdf_indexer.py -i sans_book.pdf --csv \
   --book-starts 1 168 299 487 620 770 1180 \
   --skip-first 2 2 2 2 0 2 2 \
   --skip-last 0 0 0 0 20 0 0 \
   --wordlist custom_words.txt
 ```
 
-- `for608.pdf` is the full SANS PDF
+- `sans_book.pdf` is the full SANS PDF
 - Skips front/back matter as needed
-- Outputs a clean `for608.csv` index file
+- Outputs a clean `sans_book.csv` index file
 
 ---
 
